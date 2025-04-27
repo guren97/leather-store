@@ -37,7 +37,7 @@ export default function HomePage() {
                 Explore Collection <ArrowRight className="ml-2 h-4 w-4" />
               </Link>
             </Button>
-            <Button asChild variant="outline" size="lg" className="border-white text-white hover:bg-black/50 hover:text-white">
+            <Button asChild variant="outline" size="lg" className="border-white text-white bg-balck/50 hover:bg-black/50 hover:text-white">
               <Link href="/about">Our Craftsmanship</Link>
             </Button>
           </div>
