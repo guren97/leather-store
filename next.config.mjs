@@ -21,10 +21,8 @@ const nextConfig = {
     parallelServerBuildTraces: true,
     parallelServerCompiles: true,
   },
-  basePath: "/leather-store", // Set your base path here
 };
 
-// Merge the user configuration if it exists
 mergeConfig(nextConfig, userConfig);
 
 function mergeConfig(nextConfig, userConfig) {
@@ -47,4 +45,4 @@ function mergeConfig(nextConfig, userConfig) {
   }
 }
 
-module.exports = nextConfig;
+export default nextConfig;

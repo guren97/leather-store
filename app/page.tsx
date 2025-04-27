@@ -32,12 +32,12 @@ export default function HomePage() {
             Where tradition meets innovation. Each piece is meticulously crafted by skilled artisans using the finest leather.
           </p>
           <div className="flex flex-col gap-4 sm:flex-row">
-            <Button asChild size="lg" className="bg-orange-500 text-black hover:bg-white/90">
+            <Button asChild size="lg" className="bg-orange-500 text-black hover:bg-orange-400/90">
               <Link href="/products">
                 Explore Collection <ArrowRight className="ml-2 h-4 w-4" />
               </Link>
             </Button>
-            <Button asChild variant="outline" size="lg" className="border-white text-black hover:bg-white/10 hover:text-white">
+            <Button asChild variant="outline" size="lg" className="border-white text-white hover:bg-black/50 hover:text-white">
               <Link href="/about">Our Craftsmanship</Link>
             </Button>
           </div>
